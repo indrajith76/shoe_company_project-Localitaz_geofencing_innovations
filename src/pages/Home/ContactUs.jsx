@@ -1,7 +1,13 @@
 const ContactUs = () => {
   return (
-    <div className="bg-white p-8 m-4 my-32 max-w-md mx-auto rounded shadow-lg">
-      <h1 className="text-4xl text-center font-semibold text-black mb-10"><span className="text-secondary">Contact</span> Us</h1>
+    <div
+      className="bg-white p-8 m-4 my-32 max-w-md mx-auto rounded shadow-lg"
+      data-aos="fade-down" 
+      data-aos-duration="1000"
+    >
+      <h1 className="text-4xl text-center font-semibold text-black mb-10">
+        <span className="text-secondary">Contact</span> Us
+      </h1>
       <form>
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 font-medium">

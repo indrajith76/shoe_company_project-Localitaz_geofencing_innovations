@@ -11,7 +11,9 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="text-black container mx-auto my-32">
+    <div className="text-black container mx-auto my-32"  data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1000">
       <h1 className="text-4xl text-center">Testimonials</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
         {testimonials.map((testimonial, idx) => (

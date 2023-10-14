@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="bg-base-100">
+    <div className="bg-base-100"  data-aos="zoom-in">
       <div className="container mx-auto">
         <div className="carousel">
           <div id="slide1" className="carousel-item h-[50vh] md:h-auto relative w-full">

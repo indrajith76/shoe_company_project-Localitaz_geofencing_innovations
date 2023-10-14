@@ -1,6 +1,8 @@
 const AboutProduct = () => {
   return (
-    <div>
+    <div  data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1000">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">

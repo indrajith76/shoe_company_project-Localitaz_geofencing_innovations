@@ -1,9 +1,9 @@
 import { AiOutlineHeart } from "react-icons/ai";
 
 const ProductCard = ({ product }) => {
-  const { brand, model, color, price, image_url } = product;
+  const { brand, model, price, image_url } = product;
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-xl"  data-aos="fade-up" data-aos-duration="1000">
       <figure>
         <img className="h-56" src={image_url} alt="Shoes" />
       </figure>
