@@ -82,7 +82,9 @@ const Navbar = () => {
             </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">
+            <img className="h-full" src="https://1000logos.net/wp-content/uploads/2021/04/Foot-Shop-logo-500x281.png" alt="" />
+          </a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

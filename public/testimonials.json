@@ -1,0 +1,17 @@
+[
+    {
+        "customer_name": "John Doe",
+        "customer_image_url": "john_doe_image.jpg",
+        "testimonial_text": "I absolutely love my new shoes! The quality is outstanding, and they are incredibly comfortable. I couldn't be happier with my purchase."
+    },
+    {
+        "customer_name": "Alice Smith",
+        "customer_image_url": "alice_smith_image.jpg",
+        "testimonial_text": "These shoes are a game-changer! They are stylish and durable, making them perfect for both work and casual outings. I highly recommend them."
+    },
+    {
+        "customer_name": "Bob Johnson",
+        "customer_image_url": "bob_johnson_image.jpg",
+        "testimonial_text": "I've tried many shoes over the years, and these are by far the best. They look great, fit perfectly, and are built to last. Two thumbs up!"
+    }
+]

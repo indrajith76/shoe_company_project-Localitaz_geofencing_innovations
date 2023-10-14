@@ -19,6 +19,9 @@ const Products = () => {
             <ProductCard key={idx} product={product}></ProductCard>
           ))}
         </div>
+        <div className="flex justify-center mt-10">
+          <button className="btn-sm rounded-lg bg-secondary text-white hover:bg-pink-600">See More</button>
+        </div>
       </div>
     </section>
   );
